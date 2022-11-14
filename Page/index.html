@@ -1,28 +1,134 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        @media (max-width:600px){
-            html{
-                color-scheme: dark;
-                font-family: sans-serif;
-                text-align: center;
-            }
-            
-        }
-    </style>
-</head>
-<body>
-   <span>Welcome<h1>Loh!</h1></span>  
-    
-    <p>
-        Welcome to this site
-    </p>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            @media (max-width:600px){
+                *{
+                    padding: 0px;
+                    margin: 0px;
+                }
 
-    <script src="../Javascrpit/app.js"></script>
-</body>
-</html>
+
+                html{
+                    color-scheme: white;
+                    font-family: sans-serif;
+                    
+                }
+
+                .nav{
+                    width: 100%;
+                    top: 0px;
+                    left: 0px;
+                    display: flex;
+                    align-items: center;
+                    background-color: rgb(106, 106, 235);
+                    
+                }
+
+                img{
+                    width: 100px;
+                    height: 100px;
+                    padding: 10px;
+                }
+
+                h2{
+                    font-size: 27px;
+                    color: rgb(255, 255, 255);
+                }
+
+                .main{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 45vh;
+                }
+
+                fieldset{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    padding: 10px;
+                    border-radius: 10px;
+                    background-color: rgb(245, 238, 238);
+                }
+
+
+                input{
+                    width: 200px;
+                    height: 24px;
+                    margin: 10px;
+                    font-size: 20px;
+                    border-radius: 10px;
+                    
+                }
+
+                button{
+                    width: 200px;
+                    height: 24px;
+                    margin: 10px;
+                    font-size: 20px;
+                    border-radius: 10px;
+                    background-color: rgba(161, 230, 57, 0.767);
+                }
+
+                .heading{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 30px;
+                    margin-left: 30px;
+                    margin-right: 30px;
+                }
+
+                .footer{
+                    position: fixed;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    left: 0;
+                    bottom: 0;
+                    width: 100%;
+                    background-color: aquamarine;
+                    height: 13vh;
+                }
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="nav">
+            <img src="../Image/logo_ud.png">
+
+            <h2>
+                UDSM ELECTION
+            </h2>
+        </div>
+
+        
+        <div class="heading">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate dignissimos quam perferendis dolor deleniti dolore? Quasi ut vitae fugit quos!
+        </div>
+
+
+        <div class="main">
+            <fieldset>
+                <label for="">Enter Your Registration Number</label>
+                <input type="text">
+
+                <button>Submit</button>
+            </fieldset>
+        </div>
+
+
+        <div class="footer">
+            dgs
+        </div>
+
+        <script src="../Javascrpit/app.js"></script>
+    </body>
+    </html>
